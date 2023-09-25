@@ -1,5 +1,5 @@
-{
-   margin: 0;
+
+  *{ margin: 0;
    padding: 0;
 }
 
@@ -7,5 +7,32 @@
 background-color: blueviolet;
 color: blueviolet;
 display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 24px;
+}
 
+.cabeçalho-imagem{
+      width: 20%;
+}
+.escola-imagem{
+   width: 25;
+}
+
+
+.escola{
+ background-image: linear-gradient(#424E61,#4EBFE9);
+color: bisque;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 24px 0;
+}
+
+.escola-div-conteudo{
+   width: 35%;
+}
+
+.escola-titulo{
+padding: 24;
 }
