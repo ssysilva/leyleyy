@@ -1,11 +1,11 @@
-
-  *{ margin: 0;
+*{
+   margin: 0;
    padding: 0;
 }
 
 .cabeçalho{
-background-color: blueviolet;
-color: blueviolet;
+background-color: #424E61;
+color: white;
 display: flex;
 justify-content: space-around;
 align-items: center;
@@ -15,8 +15,13 @@ padding: 24px;
 .cabeçalho-imagem{
       width: 20%;
 }
+
+.cabeçalho-lista-item{
+   display: inline-block;
+   padding: 24px;
+}
 .escola-imagem{
-   width: 25;
+   width: 25%;
 }
 
 
@@ -34,5 +39,13 @@ padding: 24px 0;
 }
 
 .escola-titulo{
-padding: 24;
+padding: 24px;
+}
+
+.estudante-ícone{
+   width: 10px;
+}
+
+.estudante-imagem{
+   width: 15%;
 }
